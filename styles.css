@@ -1,0 +1,17 @@
+/* styles.css */
+.chat-badge.moderator, .chat-badge.vip {
+    display: none !important;
+}
+img[alt="Moderador"]{
+	display: none !important;
+	width: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+img[alt="VIP"]{
+	display: none !important;
+	width: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}

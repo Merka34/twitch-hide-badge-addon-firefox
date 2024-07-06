@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Twitch Hide VIP and Mod Badge",
+    "version": "1.0",
+    "description": "Oculta los emblemas de moderador y VIP en Twitch.",
+    "icons": {
+        "48": "icons/icon-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.twitch.tv/*"],
+            "css": ["styles.css"]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
